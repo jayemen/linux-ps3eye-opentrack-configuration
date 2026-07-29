@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idProduct}=="2000", ATTRS{idVendor}=="1415", SUBSYSTEM=="video4linux", RUN+="/usr/local/bin/fix-ps3eye.sh"

@@ -1,0 +1,6 @@
+Automatically sets the correct exposure settings on a PS3Eye camera for IR head tracking. Note that your camera must have the IR filter removed.
+
+- `99-ps3_eye_camera.rules` goes in `/etc/udev/rules.d`
+- `fix-ps3eye.sh` goes in `/usr/local/bin`
+
+For this to work, you need v4l-utils installed.
