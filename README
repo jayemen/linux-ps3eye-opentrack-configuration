@@ -1,4 +1,4 @@
-Automatically sets the correct gain settings on a PS3Eye camera for IR head tracking. Note that your camera must have the IR filter removed.
+Automatically sets the correct gain for IR head tracking on PS3Eye cameras. Note that your camera must have the IR filter removed.
 
 - `99-ps3_eye_camera.rules` goes in `/etc/udev/rules.d`
 - `fix-ps3eye.sh` goes in `/usr/local/bin`
